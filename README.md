@@ -1,16 +1,16 @@
-# 🌍 Analyzing Carbon Emissions Using PostgreSQL
+# Analyzing Carbon Emissions Using PostgreSQL
 
-## 📌 Project Overview
+## Project Overview
 This project explores global carbon emissions data using SQL in a PostgreSQL environment. The goal is to extract insights from various industries, companies, and countries to understand carbon footprint trends and highlight contributors to environmental impact in 2017 and across multiple years.
 
-## 🎯 Project Objectives
+## Project Objectives
 - Identify companies with high carbon emissions
 - Compare emissions across different industry groups
 - Examine country-level emissions totals
 - Analyze the carbon footprint distribution within company operations (upstream, operational, downstream)
 - Visualize emissions by country using Python and Plotly
 
-## 📁 Dataset Details
+## Dataset Details
 - **Source**: DataCamp SQL Carbon Emissions Training Dataset
 - **Rows**: ~866 product-level entries
 - **Key Fields**:
@@ -19,12 +19,12 @@ This project explores global carbon emissions data using SQL in a PostgreSQL env
   - Regional identifiers like `country`
   - Lifecycle breakdown: upstream, operations, downstream emissions
 
-## ⚙️ Tools & Technologies
+## Tools & Technologies
 - **SQL (PostgreSQL)**: Data querying and aggregation
 - **Python**: Data visualization (Plotly Express)
 - **Plotly**: Used to visualize emissions by country
 
-## 🔍 Analysis Summary
+## Analysis Summary
 1. Queried emissions data by year, company, and industry group
 2. Aggregated total carbon footprint by:
    - Industry group (e.g., Capital Goods, Software & Services)
@@ -33,33 +33,33 @@ This project explores global carbon emissions data using SQL in a PostgreSQL env
 3. Explored product-level carbon intensity breakdown
 4. Created bar charts showing country-level emissions totals
 
-## 📊 Key Insights
+## Key Insights
 - The **USA** and **Germany** showed significantly higher total emissions compared to other countries.
 - **Capital Goods** and **Technology Hardware** were among the top emitting industry groups in 2017.
 - Within companies like **Daikin Industries**, upstream processes contributed the most to overall carbon emissions.
 - **Gamesa Corporación Tecnológica (Spain)** had product-level emissions exceeding 3 million PCF, making it a key contributor in that country.
 
-## 📎 Visualizations
+## Visualizations
 Bar charts were created using Plotly to visualize:
 - Emissions per country
 - Count of entries per country
 
-## 🚧 Challenges
+## Challenges
 - Some country values had significantly skewed totals due to high-emission products.
 - Industry categorization sometimes overlapped (e.g., Software & Services vs. Technology Hardware).
 - Product-level granularity varied across companies.
 
-## 🌱 Future Work
+## Future Work
 - Include year-over-year trend analysis of emissions
 - Normalize emissions by population or GDP for fairer country comparisons
 - Join with external climate policy datasets to assess impact
 - Expand visualizations into dashboards
 
-## 📚 Learnings
+## Learnings
 - Gained experience with grouping, aggregation, and filtering using SQL
 - Learned how to extract meaningful insights from product-level emissions data
 - Strengthened ability to visualize SQL results with Python tools like Plotly
 
-## 👩🏽‍💻 Author
+##  Author
 **Titilayo Kuloyo**  
 Data Analyst | Passionate about sustainability, SQL, and storytelling with data
